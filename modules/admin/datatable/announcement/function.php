@@ -1,0 +1,11 @@
+<?php
+function get_total_all_records()
+{
+	include('../db.php');
+	$statement = $connection->prepare("SELECT * FROM 	tbl_announcement WHERE ann_date >= CURDATE() AND ann_status <> 'CANCELED'");
+	$statement->execute();
+	$result = $statement->fetchAll();
+	return $statement->rowCount();
+}
+
+?>

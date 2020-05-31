@@ -1,0 +1,1294 @@
+body{
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+thead{
+    background-color: #b01f24;
+    color: white;
+}
+
+.btn-gray{
+    background-color: #c4c4c4;
+    color: black;
+}
+.btn-gray:hover{
+    background-color: #696868;
+    color: white !important;
+}
+
+.btn-dark{
+    background-color: #2b2831;
+    color: white;
+}
+.btn-dark:hover{
+    color: #b01f24 !important;
+}
+
+.btn-red{
+    background-color: #b01f24;
+}
+
+.btn-green{
+    background-color: #398439;
+}
+
+.btn-gray, .btn-red, .btn-green{
+    text-align: center;
+    color: white;
+}
+
+.btn-transparent{
+    background-color: unset;
+    border: unset;
+}
+
+.content-container{
+    min-height: 100vh;
+    padding-top: 53px;
+    background-color: #f5f5f5;
+}
+
+.client-content h2{
+    margin: 1% auto 2% auto;
+    text-transform: uppercase;
+    color: #b01f24;
+}
+
+@media(min-width: 1020px){
+    .log-statistics{
+        width: 30%;
+        float: left;
+    }
+
+    .log-summary,.progress-tab{
+        width: 68%;
+        padding: 1%;
+        float: right;
+    }
+
+    .log-detail{
+        width: 26%;
+        padding: 1%;
+        float: left;
+    }
+}
+
+@media(min-width: 645px){
+    .submenu-left{
+        width: 14%;
+        float:left;
+        min-height: 100vh;
+        position: fixed;
+        padding: 10px;
+    }
+
+    .managesvcs-content, .mod-content{
+        width: 86%;
+        margin-left: 14%;
+        padding: 1%;
+    }
+
+
+    .profile-left{
+        width: 30%;
+        float: left;
+        margin: 1%;
+        text-align: left;
+    }
+    .profile-right{
+        width: 66%;
+        float:right;
+    }
+
+
+    .trans-statistics .stats-box{
+        width: 30%;
+        display: inline-table;
+        margin: 0 1% 0 1%;
+        min-height: 200px;
+    }
+
+    .dashboard-left{
+        width: 39%;
+        float: left;
+    }
+    .dashboard-right{
+        width: 58%;
+        float: right;
+    }
+
+    .stflogbook-right{
+        width: 60%;
+        float: right;
+    }
+
+    .stflogbook-left{
+        width: 36%;
+        float: left;
+    }
+
+
+    .dashboard-statistics{
+        width: 30%;
+        float: left;
+    }
+
+    .customer-dashboard{
+        width: 65%;
+        float: left;
+    }
+
+    .workout-left{
+        width: 48%;
+        float: left;
+    }
+
+    .workout-right{
+        width: 48%;
+        float: right;
+    }
+
+    .settings-container{
+        width: 40%;
+        margin: 3% auto;
+    }
+}
+
+@media(min-width: 805px){
+    .left-enroll{
+        width: 62%;
+        float: left;
+    }
+    .left-enroll button.new{
+        margin-top: 20%;
+    }
+
+    .left-enroll div{
+        text-align: center;
+    }
+
+    .right-enroll{
+        width: 38%;
+        float: right;
+    }
+
+    .enroll-item{
+        width: 200px;
+        min-height: 100px;
+        float: left;
+    }
+}
+
+.box{
+    background-color: white;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.stats-box{
+    width: 80%;
+    min-height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.stats-box-lg{
+    width: 90% !important;
+    padding: 5%;
+}
+
+.box-gray{
+    background-color: #c4c4c4;
+    color: #434343;
+}
+
+.box-red{
+    background-color: #b01f24;
+    color: white;
+}
+
+.box-dark{
+    background-color: #2b2831;
+    color: white;
+}
+
+
+.submenu-left{
+    background-color: #2b2831;
+    color: white;
+    padding: 5px;
+}
+.submenu-left h3{
+    font-weight: bold;
+    text-align: center;
+}
+.submenu-left p{
+    font-size: 0.9em;
+}
+.submenu-left a{
+    color: white;
+}
+
+.list-nav,
+.list-nav li{
+    padding: 10px;
+    list-style: none;
+}
+.list-nav li:hover{
+    background-color: #de1f26;
+    color: white;
+}
+
+.managesvcs-content{
+    padding: 2%;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+
+#logbook_table_wrapper{
+    width: 100%;
+}
+
+.log-detail{
+    color: #434343;
+    font: Roboto, sans-serif;
+}
+.log-detail h3, .dashboard-left h4{
+    text-align: center;
+    text-transform: uppercase;
+}
+.log-detail ul, .log-detail li{
+    padding: 5px;
+    list-style: none;
+}
+.log-detail li>span{
+    font-weight: bold;
+    color: #b01f24;
+}
+
+.right-enroll{
+    padding: 1%;
+}
+
+.right-enroll h4, .right-enroll p{
+    margin: 0;
+}
+
+.right-header{
+    min-height: 50px;
+    background-color: #434343;
+    color: white;
+    text-align: right;
+    padding: 15px 10px;
+}
+
+.right-footer{
+    padding: 10px;
+}
+
+.right-body{
+    min-height: 380px;
+    background-color: white;
+    padding: 2%;
+}
+
+.right-body thead, .right-body th{
+    background-color: white;
+    color: #b01f24;
+    font-weight: normal;
+}
+.right-body th{
+    text-align: center;
+}
+.right-body td, .right-body th{
+    padding: 2%;
+    text-align: center;
+}
+
+.dashboard-inactive{ /*I UPDATED DIS*/
+    width: 100%;
+    text-align: center;
+    min-height: 91.7vh;
+    background: url(../../img/dashboard-inactive.jpg) top left no-repeat;
+    background-size: 100%;
+    color: white;
+}
+
+.dashboard-inactive h2{
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 13%;
+}
+.dashboard-inactive p{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-left p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.profile-left .footer{
+    border-top: 1px #b01f24 solid;
+}
+
+.profile-left .footer h4{
+    font-size: 1em;
+}
+
+.profile-left .footer p{
+    font-size: 0.9em;
+}
+
+
+
+
+
+
+/***FROM mod_stylesheet***/
+#calendarofeventscont{
+	width: 100%;
+
+}
+
+#calendarofeventsevents{
+	width: 97%;
+	border-bottom: 2px solid #be2941;
+	padding-top: 1%;
+	padding-left: 1%;
+	margin-left: 1%;
+
+}
+
+#calendarofeventsevents img{
+	width: 3%;
+	height: 3%;
+
+}
+
+#overviewcont{
+	margin: 1%;
+
+}
+#overviewcontA{
+	width: 100%;
+	border-bottom: 2px solid #be2941;
+	padding-bottom: 0.4%;
+}
+
+#overviewcontA img{
+	width: 5%;
+	height: 5%;
+	vertical-align: bottom;
+
+}
+
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.svcs-header{
+    width: 100%;
+    float: left;
+}
+
+#classiconcontclass img{
+	width: 50px;
+	height: 50px;
+	vertical-align: bottom;
+}
+
+#classiconcontmembership img{
+	width: 10.5%;
+	height: 10.5%;
+	vertical-align: bottom;
+}
+#classiconcontpromos img{
+	width: 15%;
+	height: 15%;
+	vertical-align: bottom;
+}
+
+#classiconcontmembership{
+	width: 38%;
+	float: left;
+}
+#classiconcontpromos{
+	width: 20%;
+	float: left;
+}
+
+#svcscont{
+	width: 100%;
+	border-bottom: 2px solid #b01f24;
+	display: inline-block;
+	overflow: hidden;
+	padding-bottom: 0.5%;
+
+}
+#classsearch input{
+	width: 100%;
+	height: 1.5vw;
+	border-radius: 0.3vw;
+	border: 1px solid #b01f24;
+	padding-left: 0.2vw;
+}
+
+#classtable{
+	width: 90%;
+	margin: auto;
+	padding-top: 0.5%;
+}
+
+/*******Equipments****/
+#equipmentscont{
+	border-bottom: 2px solid #b01f24;
+	padding-bottom: 0.4%;
+	margin: auto;
+}
+
+#equipmentshead{
+	width: 20%;
+	float: left;
+
+}
+
+#equipmentshead img{
+	width: 20%;
+	height: 20%;
+	vertical-align: bottom;
+
+}
+
+#searchequipment{
+	width: 20%;
+	padding-top: 1.2%;
+	padding-right: 1%;
+	float: right;
+}
+
+#searchequipment input{
+	width: 100%;
+	height: 1.5vw;
+	border-radius: 0.3vw;
+	border: 1px solid #b01f24;
+	padding-left: 0.2vw;
+
+}
+
+/*******Event Booking****/
+#eventbookingcont{
+    width: 100%;
+    padding: 1% 5%;
+	margin: auto;
+      height: 80vh;
+
+}
+
+#eventtablecont{
+	width: 98%;
+	margin: auto;
+}
+
+#eventbookingcontevent{
+	width: 24.5%;
+}
+
+#eventbookingcontevent img{
+	width: 12%;
+	height: 12%;
+	vertical-align: bottom;
+
+}
+
+#searcheventbooking{
+	width: 20%;
+	padding-top: 1.2%;
+	padding-right: 1%;
+	float: right;
+}
+
+#searcheventbooking input{
+	width: 100%;
+	height: 1.5vw;
+	border-radius: 0.3vw;
+	border: 1px solid #b01f24;
+	padding-left: 0.2vw;
+
+}
+
+/*******Staff****/
+#staffcont{
+	border-bottom: 2px solid #b01f24;
+	padding-bottom: 0.5%;
+	margin: auto;
+}
+
+.btnright{
+
+  float: right;
+  margin-top: 3%;
+  display: inline-block;
+
+}
+#staffhead{
+  display: inline-block;
+		width: 30%;
+}
+#eqpavail{
+  display: inline-block;
+    width: 50%;
+}
+#eqpavail img{
+  width: 9%;
+  height: 9%;
+  vertical-align: bottom;
+}
+#staffhead img{
+	width: 14%;
+	height: 14%;
+	vertical-align: bottom;
+
+}
+
+#searchstaff{
+	width: 20%;
+	padding-top: 1.2%;
+	padding-right: 1%;
+	float: right;
+}
+
+#searchstaff input{
+	width: 100%;
+	height: 1.5vw;
+	border-radius: 0.3vw;
+	border: 1px solid #b01f24;
+	padding-left: 0.2vw;
+
+}
+
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.stats-box h4{
+    font-family: Roboto, sans-serif;
+    font-size: 1.5em;
+}
+#class-stats span{
+    font-style: italic;
+}
+#class-stats h4{
+    font-weight: bold;
+}
+.stats-box h3{
+    font-size: 3em;
+}
+
+.profile-left h3{
+    margin: 0;
+    font-size: 2em;
+    color: #b01f24;
+    font-weight: bold;
+}
+
+.profile-right{
+    margin: 1%;
+}
+
+.profile-btns{
+    text-align: right;
+}
+.profile-btns button{
+    width: 150px;
+    height: 50px;
+}
+.renew-btn button{
+    padding: 2%;
+    text-align: center;
+    width: 100%;
+    height: inherit;
+    font-size: 0.9em;
+    color: black;
+    text-transform: uppercase;
+}
+
+.profile-img{
+    padding: 5%;
+    background-color: #2b2831;
+    border-radius: 50%;
+}
+
+.trans-statistics{
+    text-align: center;
+}
+
+.bmi-calculator{
+    width: 35%;
+    margin: 5%;
+    float: left;
+}
+
+
+.bmi-result{
+    width: 55%;
+    padding: 5%;
+    background-color: #b01f24;
+    float: right;
+    min-height: 275px;
+    color: white;
+}
+.bmi-result h3, .bmi-result hr{
+    text-align: center;
+    margin-top: 0;
+    border-color: white;
+}
+.bmi-btns{
+    text-align: center;
+}
+
+#trns_btn{
+    text-align: right;
+}
+#trns_btn button{
+    min-width: 95px;
+    margin-left: 10px;
+}
+
+
+.enroll-item{
+    padding: 5px;
+    background-color: #b01f24;
+    color: white;
+    margin: 1%;
+    cursor: pointer;
+}
+.enroll-item h4{
+    font-size: 1em;
+    font-weight: bold;
+}
+.item-container h3{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 1%;
+    margin-bottom: 0;
+}
+.enroll-item p{
+    font-size: 0.9em;
+}
+.enroll-selected{
+    background-color: #c4c4c4;
+    cursor: auto;
+}
+
+.text-light{
+    font-size: 12px;
+    color: #a09e9e;
+    text-transform: capitalize;
+}
+
+.dashboard-left{
+    margin: 1% 0 1% 1%;
+}
+.dashboard-right{
+    margin: 1%;
+}
+
+svg{
+    vertical-align: -webkit-baseline-middle;
+}
+
+.date_today svg{
+    vertical-align: middle;
+}
+
+.btn-fullcircle{
+    border-radius: 50% !important;
+}
+
+.dashboard-left .client-info{
+    text-align: left;
+    padding: 5%;
+}
+
+.stflogbook-left{
+    padding: 1%;
+}
+.stflogbook-left h4{
+    color: #b01f24;
+}
+
+.routine_table th, .routine_table td{
+    text-align: center;
+    padding: 5px;
+}
+
+.dashboard-statistics{
+    padding: 1%;
+}
+
+.customer-dashboard{
+    padding: 1%;
+    text-align: center;
+    margin: 1%;
+}
+.customer-dashboard h3, .customer-dashboard h4{
+    margin: 0 auto 1% auto;
+    width: 75%;
+    text-align: left;
+}
+
+.workout-left, .workout-right{
+    padding: 2%;
+    margin: 1%;
+    min-height: 75vh;
+}
+
+.workout-btn{
+    clear: both;
+    margin: 1%;
+    text-align: right;
+}
+
+.workout-btn span{
+    float: left;
+    text-transform: capitalize;
+}
+
+#edit_btn{
+    float: right;
+}
+
+.settings-container .form-module input{
+    padding: 5px 10px;
+}
+
+.settings-list{
+    padding: 0;
+}
+.settings-list li{
+    list-style: none;
+}
+
+
+/**ADMIN CSS**/
+#MANAGESVCS_NAV a{
+	color: #FFFFFF;
+}
+
+
+#MANAGESVCS_NAV ul{
+	width: 100%;
+	 clear: left;
+
+}
+
+#pagination_controls{
+	width: 100%;
+	text-align: center;
+	margin-top: 5%;
+	color: #b01f24;
+}
+
+#pagination_controls a{
+	color: #c4c4c4;
+}
+
+#pagination_controls a:hover{
+	color: #434343;
+}
+
+
+#calendarFinal{
+	width: 100%;
+	color: #545454;
+      margin-top: 1%;
+}
+#calendarFinal h3{
+    color: #b01f24;
+}
+#calendar {
+		max-width: 100%;
+}
+.col-centered{
+		margin: 0 auto;
+}
+.row-calendar{
+    padding: 5.5% 10%;
+	float: left;
+	border-radius: 5px;
+	background-color: white;
+  margin-top: 1%;
+}
+#statboxone{
+	color: white;
+    clear: both;
+    width: 100%;
+}
+#statboxtwo{
+	width: 100%;
+	padding-top: 1%;
+	color: white;
+}
+#statboxthree{
+	width: 100%;
+	padding-top: 1%;
+
+	color: white;
+}
+.chartcont{
+	padding-top: 1%;
+	margin-top: 1%;
+	width: 100%;
+	padding-left: 1%;
+	background-color: white;
+}
+#chartonecont, #charttwocont, #chartthreecont{
+	background-color: white;
+    padding: 5%;
+    width: fit-content;
+    width: 100%;
+}
+#charttwocont, #chartthreecont{
+    margin-top: 1%;
+}
+
+
+/* Admin Dashboard */
+#dashboardCont{
+	width: 100%;
+	background-color: #f1f1f1;
+	float: left;
+}
+
+#memberctrcont{
+	width: 16.4%;
+	display: inline-block;
+	padding-left: 3%;
+	padding-top: 2%;
+    padding-bottom: 2%;
+}
+#bookingctrcont{
+	width: 16.4%;
+	padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+	display: inline-block;
+}
+.box-black{
+	background-color: black;
+    color: white;
+}
+
+.cntnum{
+	float: left;
+	font-weight: normal;
+	font-size: 36px;
+
+	margin-left: 10px;
+}
+.cntnumB{
+	font-weight: normal;
+	font-size: 36px;
+
+
+}
+.cntnumextension{
+	clear: both;
+
+}
+.cntnumextensionB{
+	clear: both;
+
+}
+#chart-cont{
+		width: 100%;
+}
+
+.classPromoModal-dialog{
+	width: 70%;
+	margin: auto;
+}
+
+.modal-body-class-promo{
+	width: 45%;
+	padding: 1%;
+	display: inline-block;
+    float: left;
+}
+
+.class-cont-rdbtn, #mem-cont-rdbtn{
+	width: 55%;
+	display: inline-block;
+	padding-left: 10%;
+    float: left;
+}
+
+/**** !COACH! ****/
+#coachstatboxcont{
+	width: 100%;
+
+padding-left: 1.5%;
+	padding-top: 1%;
+}
+#coach-stat-box-one{
+display: inline-block;
+	width: 24%;
+	height: 20vh;
+	background-color: white;
+
+}
+#coach-stat-box-two{
+display: inline-block;
+	width: 24%;
+
+	margin-left: 0.6%;
+	background-color: white;
+}
+
+#coach-stat-box-three{
+	width: 24%;
+	height: 20vh;
+	margin-left: 0.6%;
+display: inline-block;
+	background-color: white;
+}
+
+#coach-stat-box-four{
+	width: 24%;
+	height: 20vh;
+	margin-left: 0.6%;
+display: inline-block;
+	background-color: white;
+}
+
+#coach-dash-customers-cont{
+	width: 98.5%;
+	padding-left: 1.5%;
+	margin-top: 0.5%;
+
+}
+
+.coach-border-radius{
+	border-radius: 10px;
+}
+#coachheadcont{
+	width: 100%;
+	border-bottom: 2px solid #b01f24;
+	display: inline-block;
+	overflow: hidden;
+
+
+}
+
+#coachhead{
+	width: 25%;
+	float: left;
+
+
+}
+
+#coachhead img{
+	width: 13%;
+	height: 13%;
+	vertical-align: bottom;
+
+}
+
+#coachcurrdate{
+	float: right;
+	width: 25%;
+	text-align: right;
+	margin-top: 4%;
+}
+
+
+/* client report */
+
+.repbox{
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+  padding: 1.5%;
+  padding-bottom: 1.5%;
+  margin: auto;
+
+}
+
+.reptype{
+	width: 48%;
+	float: left;
+	margin-left: 1%;
+
+}
+
+#list-report-details{
+    height: 350px;
+}
+
+#report-date-picker{
+	width: 100%;
+	border: 1px solid black;
+
+	float:left;
+}
+#repdatebox{
+	padding-left: 20%;
+
+	border-radius: 4px;
+}
+
+#datestartcont{
+	width: 30%;
+	display: inline-block;
+}
+
+#dateendcont{
+	width: 30%;
+	display: inline-block;
+	margin-left: 1%;
+}
+
+
+
+#resultarea{
+ 	width: 100%;
+ 	padding-left: 5%;
+ 	padding-right: 5%;
+ 	padding-top: 3%;
+
+ }
+
+#membershipgraphone{
+	width: 70%;
+	margin: auto;
+}
+  canvas {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+
+#membership_table{
+	width: 100%;
+	padding-top: 5%;
+
+ }
+
+ .classgraph{
+	width: 70%;
+	margin: auto;
+
+}
+
+#table-sales-class{
+	width: 100%;
+	padding-top: 5%;
+}
+
+#table-sales-membership{
+	width: 100%;
+	padding-top: 5%;
+}
+
+#eqp-avail-table{
+	width: 100%;
+	padding-top: 5%;
+}
+
+#multiple-input{
+  width: 60%;
+display: block;
+float: right;
+padding-right: 3%;
+
+}
+
+.event-modal-dialog{
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	padding-right: 1%;
+}
+
+.event-modal-body{
+	width: 45%;
+	display: inline-block;
+	padding: 1%;
+	float: left;
+}
+.event-modal-footer{
+	clear: both;
+	padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+
+#stafflogtable{
+	width: 100%;
+	padding-top: 5%;
+}
+
+.longhr{
+    max-width: 100%;
+}
+
+.dashleft{
+    float: left;
+    margin-top: 1%;
+    width: 37%;
+}
+.dashright{
+    float: right;
+    margin-top: 0.5%;
+    width: 62%;
+}
+
+.svg-middle svg{
+    vertical-align: middle !important;
+}
+
+#workout_table td{
+    vertical-align: middle;
+}
+
+.class_sales{
+    width: 100%;
+
+
+      margin-top: 1%;
+}
+
+.sales_total{
+    width: 100%;
+    margin-top: 1%;
+}
+
+.dashboard_calendar{
+    clear: both;
+}
+
+.dashheader{
+    padding: 1%;
+    margin-bottom: 1%;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.log-statistics{
+    padding: 1%;
+}
+
+.td-button{
+    text-align: center;
+}
+
+#evn-img-details{
+  width: 30%;
+  margin-left: 5%;
+  margin-top: 1%;
+  float: left;
+  margin-bottom: 1%;
+}
+
+#evn-img-details img{
+  width: 100%;
+  height: 65vh;
+}
+
+#event-poster-admin{
+
+margin-left: 23%;
+width: 53%;
+}
+
+#event-poster-admin img{
+width: 100%;
+  height: 65vh;
+}
+
+
+#announcementcont{
+  margin-top: 1%;
+      height: 78vh;
+}
+
+.event-modal-body-edit{
+  float: right;
+  width: 60%;
+}
+
+#multiple-input-table{
+  margin-top: 2%;
+}
+
+#admin-form{
+  width: 40%;
+  border-radius: 2px;
+
+  border: 1px solid black;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width:649px){
+    .admin-dashboard-container div{
+        float: none;
+        display: block;
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
